@@ -1,0 +1,240 @@
+/* Este estilo tuve que aplicarlo debido a un side-scroll, ayudado de Ia, pude ir probando clase por clase que elementos estaban generando este desborde,
+y resultaron ser los margenes de las row*/
+body {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 400;
+    background-color: #F2E9E4;
+}
+
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.navbar {
+    background-color: #F2E9E4 !important;
+}
+
+.navbar-brand {
+    font-size: 160%;
+    color: #0a58ca;
+}
+
+.navbar-brand:hover {
+    color: #5A1B0E;
+}
+
+.navbar-nav {
+    --bs-nav-link-color: #5A1B0E;
+    --bs-nav-link-hover-color: #FF5B3B;
+    --bs-nav-link-disabled-color: darkgray;
+    z-index: 3000;
+}
+
+.navbar-toggler {
+    border-color: #FF5B3B;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .show>.nav-link {
+    color: #0a58ca;
+    font-weight: 600;
+}
+
+.nav-link {
+    width: 100%;
+}
+
+.nav-link-border-default {
+    border-right: 1px solid #5A1B0E;
+}
+
+.nav-link-border-sm {
+    border-right: 1px solid #5A1B0E;
+}
+
+@media (min-width: 768px) {
+    .nav-link-border-sm {
+        border-right: none;
+    }
+}
+
+.btn {
+    font-family: "Quicksand", sans-serif;
+}
+
+.btn-primary {
+    --bs-btn-color: #F2E9E4;
+    --bs-btn-bg: #FF5B3B;
+    --bs-btn-border-color: #FF5B3B;
+    --bs-btn-hover-color: #F2E9E4;
+    --bs-btn-hover-bg: #0a58ca;
+    --bs-btn-hover-border-color: #0a58ca;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #F2E9E4;
+    --bs-btn-active-bg: #0E2959;
+    --bs-btn-active-border-color: #0E2959;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: lightgray;
+    --bs-btn-disabled-border-color: darkgray;
+}
+
+.btn-secondary {
+    --bs-btn-color: #F2E9E4;
+    --bs-btn-bg: #0a58ca;
+    --bs-btn-border-color: #0a58ca;
+    --bs-btn-hover-color: #F2E9E4;
+    --bs-btn-hover-bg: #0E2959;
+    --bs-btn-hover-border-color: #0E2959;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #F2E9E4;
+    --bs-btn-active-bg: #FF5B3B;
+    --bs-btn-active-border-color: #FF5B3B;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: lightgray;
+    --bs-btn-disabled-border-color: darkgray;
+}
+
+.Starth1Color {
+    color: #5A1B0E;
+}
+
+.StarttxtColor {
+    color: #0E2959;
+}
+
+.modal {
+    font-family: "Quicksand", sans-serif;
+}
+
+.modal-header {
+    color: #5A1B0E;
+    background-color: #F2E9E4;
+}
+
+.modal-body {
+    color: #5A1B0E;
+    background-color: #F2E9E4;
+}
+
+.modal-body img {
+    max-width: 100%;
+    max-height: 70vh;
+    object-fit: contain;
+    margin: 0 auto;
+    display: block;
+}
+
+.modal-footer {
+    color:#F2E9E4 ;
+    background-color: #0E2959;
+}
+
+.modalFootTxT {
+    color: #F2E9E4;
+}
+
+.TopContainer {
+    background-color: #F2E9E4;
+}
+
+.SectionBrown {
+    background-color: #5A1B0E;
+}
+
+.GalleryTxtColor {
+    color: #F2E9E4;
+}
+
+.my-gallery img {
+    object-fit: fill;
+    width: 80%;
+    height:max-content;
+}
+
+.my-gallery img:hover {
+    border: 5px solid #FF5B3B;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.SkillTxtColor {
+    color: #FF5B3B;
+}
+
+.accordion {
+    --bs-accordion-bg: #5a1b0e00;
+    --bs-accordion-active-bg: #5a1b0e00;
+    --bs-accordion-border-color: #5a1b0e21;
+}
+
+.accordion-button {
+    color: #0a58ca;
+}
+
+.accordion-item {
+    color: #5A1B0E;
+    background-color: #5a1b0e00;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #0a58ca;
+    font-weight: bold;
+}
+
+.Footer {
+    color: #F2E9E4;
+    background-color: #0E2959;
+}
+
+.clock {
+    font-size: 0.8rem;
+    font-family: "Quicksand", sans-serif;
+    text-align: start;
+    margin-top: 10px;
+}
+
+#output {
+    margin-top: 20px;
+    padding: 10px;
+    white-space: pre-wrap; /* Para preservar los saltos de línea */
+}
+
+/* Added Fonts */
+
+.abril-fatface-regular {
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*  <uniquifier>: Use a unique and descriptive class name
+    <weight>: Use a value from 300 to 700 */
+
+.quicksand-light {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.quicksand-regular {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.quicksand-regular_enhaced {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
